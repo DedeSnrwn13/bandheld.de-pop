@@ -12118,6 +12118,10 @@ body {
 .page-content #hero-carousel .carousel-indicators button:not(:first-child) {
   margin-top: 20px;
 }
+.page-content #what {
+  margin-top: -130px;
+  padding-top: 0;
+}
 .page-content #what .title {
   color: var(--Text-Color, #051441);
   font-family: Outfit;
