@@ -12925,6 +12925,656 @@ footer .copyright .d-flex {
     justify-content: center;
   }
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-store {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar-store #navbarResponsive ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-store #navbarResponsive ul li:last-child {
+    padding-left: 0;
+  }
+  .navbar-store .navbar-brand {
+    font-size: 18px;
+  }
+  .navbar-store .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  .navbar-store .navbar-toggler .navbar-toggler-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+  .navbar-store .navbar-toggler:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .page-content section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .page-content #hero-carousel .carousel-indicators {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .page-content #hero-carousel .carousel-indicators button {
+    width: 8px;
+    height: 8px;
+  }
+  .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption {
+    left: 5%;
+    right: 5%;
+  }
+  .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption h5, .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption .h5 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption h2, .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption .h2 {
+    font-size: 34px;
+    margin-bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 24px;
+  }
+  .page-content #disc .disc {
+    display: flex;
+    justify-content: center;
+  }
+  .page-content #disc .disc img {
+    width: 80%;
+    margin-top: -36px;
+  }
+  .page-content #disc .disc div {
+    padding-left: 5px;
+    padding-right: 28px;
+    margin-top: -20px;
+  }
+  .page-content #disc .disc div h1, .page-content #disc .disc div .h1 {
+    font-size: 34px;
+  }
+  .page-content #disc .disc div p {
+    font-size: 12px;
+  }
+  .page-content #what {
+    margin-top: -40px;
+  }
+  .page-content #what .title {
+    font-size: 30px;
+  }
+  .page-content #what .description {
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .page-content #what .what-img {
+    margin-top: 0px;
+  }
+  .page-content #what .what-bottom {
+    padding-top: 40px;
+  }
+  .page-content #what .what-bottom .left h1, .page-content #what .what-bottom .left .h1 {
+    line-height: 100%;
+    font-size: 30px;
+  }
+  .page-content #what .what-bottom .left h1 br, .page-content #what .what-bottom .left .h1 br {
+    display: none;
+  }
+  .page-content #what .what-bottom .right {
+    margin-top: 0;
+  }
+  .page-content #what .what-bottom .right .border-line {
+    width: 90px;
+    height: 6px;
+  }
+  .page-content #what .what-bottom .right p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+  .page-content #what .what-bottom .right span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .page-content #best .top .left .description .border-line {
+    width: 120px;
+    height: 6px;
+    margin-top: -5px;
+    margin-left: 0;
+  }
+  .page-content #best .top .left .description h4, .page-content #best .top .left .description .h4 {
+    font-size: 28px;
+  }
+  .page-content #best .top .left p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .page-content #best .top .right {
+    margin-top: 20px;
+  }
+  .page-content #best .top .right h1, .page-content #best .top .right .h1 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 100%;
+  }
+  .page-content #best .top .right h1 br, .page-content #best .top .right .h1 br {
+    display: none;
+  }
+  .page-content #best .bottom {
+    margin-top: 50px;
+  }
+  .page-content #best .bottom .left #accordionFaq .accordion-item .accordion-header button {
+    font-size: 16px;
+  }
+  .page-content #best .bottom .left #accordionFaq .accordion-item .accordion-collapse .accordion-body {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .page-content #best .bottom .right {
+    margin-top: 50px;
+    position: relative;
+    padding-right: 10px;
+  }
+  .page-content #best .bottom .right .wrapper {
+    margin-left: 0;
+  }
+  .page-content #best .bottom .right .wrapper img {
+    width: 100%;
+  }
+  .page-content #best .bottom .right .wrapper .controls {
+    right: 20px;
+  }
+  .page-content #best .bottom .right .wrapper .controls button {
+    width: 35px;
+    height: 35px;
+  }
+  .page-content #best .bottom .right .wrapper .controls button img {
+    width: 10px;
+    height: 10px;
+  }
+  .page-content #artist .top .left .title {
+    font-size: 28px;
+    line-height: 100%;
+  }
+  .page-content #artist .top .left .description {
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .page-content #artist .top .left .description br {
+    display: none;
+  }
+  .page-content #artist .top .right {
+    justify-content: start;
+  }
+  .page-content #artist .top .right button {
+    line-height: 24px;
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+  .page-content #artist .bottom .left-img img,
+  .page-content #artist .bottom .right-img img {
+    width: 100%;
+  }
+  .page-content #artist .bottom .right-img {
+    margin-top: 10px;
+  }
+  .page-content #artist .bottom .right {
+    margin-top: 40px;
+  }
+  .page-content #artist .bottom .right div .left .border-line .line-bottom,
+  .page-content #artist .bottom .right div .left .border-line .line-top {
+    height: 30px;
+  }
+  .page-content #artist .bottom .right div .right {
+    margin-top: 0;
+  }
+  .page-content #artist .bottom .right div .right .first .left {
+    margin-top: 11px;
+  }
+  .page-content #artist .bottom .right div .right .middle .right {
+    margin-top: 30px;
+  }
+  .page-content #artist .bottom .right div .right h5, .page-content #artist .bottom .right div .right .h5 {
+    font-size: 16px;
+  }
+  .page-content #artist .bottom .right div .right p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .page-content #contact {
+    padding-top: 50px;
+  }
+  .page-content #contact .container-xl {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+  }
+  .page-content #contact .container-xl .left {
+    padding-right: 10px;
+  }
+  .page-content #contact .container-xl .left h1, .page-content #contact .container-xl .left .h1 {
+    font-size: 28px;
+    line-height: 100%;
+  }
+  .page-content #contact .container-xl .left p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 14px;
+    margin-bottom: 16px;
+  }
+  .page-content #contact .container-xl .left form {
+    padding: 22px 20px;
+  }
+  .page-content #contact .container-xl .left form .input-group .input-group-text {
+    padding: 14px 16px;
+  }
+  .page-content #contact .container-xl .left form .input-group .input-group-text img {
+    width: 15px;
+  }
+  .page-content #contact .container-xl .left form .input-group .form-control {
+    padding: 14px 16px;
+  }
+  .page-content #contact .container-xl .left form .input-group .form-control::-webkit-input-placeholder, .page-content #contact .container-xl .left form .input-group .form-control::placeholder {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .page-content #contact .container-xl .left form button {
+    line-height: 20px;
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+  .page-content #contact .container-xl .right {
+    display: none;
+  }
+  footer {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  footer .left .title {
+    font-size: 24px;
+  }
+  footer .left p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  footer .left p br {
+    display: none;
+  }
+  footer .left .d-flex {
+    margin-top: 20px;
+  }
+  footer .left .d-flex a {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  footer .right {
+    align-items: start;
+    justify-content: start;
+    margin-top: 30px;
+  }
+  footer .right form .input-group {
+    width: 100%;
+  }
+  footer .right form .input-group .form-control::-webkit-input-placeholder, footer .right form .input-group .form-control::placeholder {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  footer .right form .input-group .input-group-append button {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  footer .right form h4, footer .right form .h4 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  footer .copyright {
+    padding-top: 10px;
+    text-align: center;
+  }
+  footer .copyright .d-flex {
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-store {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .navbar-store #navbarResponsive ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-store #navbarResponsive ul li:last-child {
+    padding-left: 0;
+  }
+  .navbar-store .navbar-brand {
+    font-size: 22px;
+  }
+  .navbar-store .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  .navbar-store .navbar-toggler .navbar-toggler-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  .navbar-store .navbar-toggler:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+  .page-content section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .page-content #hero-carousel .carousel-indicators {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .page-content #hero-carousel .carousel-indicators button {
+    width: 8px;
+    height: 8px;
+  }
+  .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption {
+    left: 5%;
+    right: 5%;
+  }
+  .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption h5, .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption .h5 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption h2, .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption .h2 {
+    font-size: 42px;
+    margin-bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+  .page-content #hero-carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 20px;
+  }
+  .page-content #disc .disc {
+    display: flex;
+    justify-content: center;
+  }
+  .page-content #disc .disc img {
+    width: 80%;
+    margin-top: -36px;
+  }
+  .page-content #disc .disc div {
+    padding-left: 5px;
+    padding-right: 28px;
+    margin-top: -20px;
+  }
+  .page-content #disc .disc div h1, .page-content #disc .disc div .h1 {
+    font-size: 34px;
+  }
+  .page-content #disc .disc div p {
+    font-size: 14px;
+  }
+  .page-content #what {
+    margin-top: 10px;
+  }
+  .page-content #what .title {
+    font-size: 30px;
+  }
+  .page-content #what .description {
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .page-content #what .description br {
+    display: none;
+  }
+  .page-content #what .what-img {
+    margin-top: 0px;
+  }
+  .page-content #what .what-bottom {
+    padding-top: 40px;
+  }
+  .page-content #what .what-bottom .left h1, .page-content #what .what-bottom .left .h1 {
+    line-height: 100%;
+    font-size: 30px;
+  }
+  .page-content #what .what-bottom .left h1 br, .page-content #what .what-bottom .left .h1 br {
+    display: none;
+  }
+  .page-content #what .what-bottom .right {
+    margin-top: 0;
+  }
+  .page-content #what .what-bottom .right .border-line {
+    width: 90px;
+    height: 6px;
+  }
+  .page-content #what .what-bottom .right p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+  .page-content #what .what-bottom .right span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .page-content #best .top .left .description .border-line {
+    width: 120px;
+    height: 6px;
+    margin-top: -5px;
+    margin-left: 0;
+  }
+  .page-content #best .top .left .description h4, .page-content #best .top .left .description .h4 {
+    font-size: 28px;
+  }
+  .page-content #best .top .left p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .page-content #best .top .right {
+    margin-top: 30px;
+  }
+  .page-content #best .top .right h1, .page-content #best .top .right .h1 {
+    text-align: right;
+    font-size: 24px;
+    line-height: 100%;
+  }
+  .page-content #best .top .right h1 br, .page-content #best .top .right .h1 br {
+    display: none;
+  }
+  .page-content #best .bottom {
+    margin-top: 50px;
+  }
+  .page-content #best .bottom .left #accordionFaq .accordion-item .accordion-header button {
+    font-size: 16px;
+  }
+  .page-content #best .bottom .left #accordionFaq .accordion-item .accordion-collapse .accordion-body {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .page-content #best .bottom .right {
+    margin-top: 0px;
+    position: relative;
+    padding-right: 10px;
+  }
+  .page-content #best .bottom .right .wrapper {
+    margin-left: 0;
+  }
+  .page-content #best .bottom .right .wrapper img {
+    width: 100%;
+  }
+  .page-content #best .bottom .right .wrapper .controls {
+    right: 20px;
+  }
+  .page-content #best .bottom .right .wrapper .controls button {
+    width: 40px;
+    height: 40px;
+  }
+  .page-content #best .bottom .right .wrapper .controls button img {
+    width: 14px;
+    height: 14px;
+  }
+  .page-content #artist .top .left .title {
+    font-size: 28px;
+    line-height: 100%;
+  }
+  .page-content #artist .top .left .description {
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .page-content #artist .top .left .description br {
+    display: none;
+  }
+  .page-content #artist .top .right {
+    justify-content: end;
+  }
+  .page-content #artist .top .right button {
+    line-height: 24px;
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+  .page-content #artist .bottom .left-img img,
+  .page-content #artist .bottom .right-img img {
+    width: 100%;
+    height: auto;
+  }
+  .page-content #artist .bottom .right-img {
+    margin-top: 0px;
+  }
+  .page-content #artist .bottom .right {
+    margin-top: 0px;
+  }
+  .page-content #artist .bottom .right div .left .border-line .line-bottom,
+  .page-content #artist .bottom .right div .left .border-line .line-top {
+    height: 30px;
+  }
+  .page-content #artist .bottom .right div .right {
+    margin-top: 0;
+  }
+  .page-content #artist .bottom .right div .right .first .left {
+    margin-top: 0px;
+  }
+  .page-content #artist .bottom .right div .right .middle .right {
+    margin-top: 0px;
+  }
+  .page-content #artist .bottom .right div .right h5, .page-content #artist .bottom .right div .right .h5 {
+    font-size: 16px;
+  }
+  .page-content #artist .bottom .right div .right p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .page-content #contact {
+    padding-top: 50px;
+  }
+  .page-content #contact .container-xl {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+  }
+  .page-content #contact .container-xl .left {
+    padding-top: 50px;
+    padding-right: 10px;
+  }
+  .page-content #contact .container-xl .left h1, .page-content #contact .container-xl .left .h1 {
+    font-size: 28px;
+    line-height: 100%;
+  }
+  .page-content #contact .container-xl .left p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 14px;
+    margin-bottom: 16px;
+  }
+  .page-content #contact .container-xl .left form {
+    padding: 22px 20px;
+  }
+  .page-content #contact .container-xl .left form .input-group .input-group-text {
+    padding: 14px 16px;
+  }
+  .page-content #contact .container-xl .left form .input-group .input-group-text img {
+    width: 15px;
+  }
+  .page-content #contact .container-xl .left form .input-group .form-control {
+    padding: 14px 16px;
+  }
+  .page-content #contact .container-xl .left form .input-group .form-control::-webkit-input-placeholder, .page-content #contact .container-xl .left form .input-group .form-control::placeholder {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .page-content #contact .container-xl .left form button {
+    line-height: 20px;
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+  footer {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  footer .left .title {
+    font-size: 24px;
+  }
+  footer .left p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  footer .left p br {
+    display: none;
+  }
+  footer .left .d-flex {
+    margin-top: 20px;
+  }
+  footer .left .d-flex a {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  footer .right {
+    align-items: end;
+    justify-content: end;
+    margin-top: 30px;
+  }
+  footer .right form .input-group {
+    width: 100%;
+  }
+  footer .right form .input-group .form-control::-webkit-input-placeholder, footer .right form .input-group .form-control::placeholder {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  footer .right form .input-group .input-group-append button {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  footer .right form h4, footer .right form .h4 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  footer .copyright {
+    padding-top: 10px;
+  }
+}
 .slide-fade-enter-active {
   transition: all 0.2s ease;
 }

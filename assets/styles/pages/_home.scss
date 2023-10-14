@@ -745,7 +745,7 @@ footer {
     }
 }
 
-@include media-breakpoint-down(sm) {
+@media (max-width: 575.98px) {
     .navbar-store {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -1199,7 +1199,957 @@ footer {
     }
 }
 
-@include media-breakpoint-up(md) { }
-@include media-breakpoint-up(lg) { }
-@include media-breakpoint-up(xl) { }
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-store {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        #navbarResponsive {
+            ul {
+                li {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+
+                    &:last-child {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+
+        .navbar-brand {
+            font-size: 18px;
+        }
+
+        .navbar-toggler {
+            border: none;
+            outline: none;
+
+            .navbar-toggler-icon {
+                width: 1.4rem;
+                height: 1.4rem;
+            }
+
+            &:focus {
+                outline: none;
+                border: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .page-content {
+        section {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        #hero-carousel {
+            .carousel-indicators {
+                margin-right: 5%;
+                margin-left: 5%;
+
+                button {
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        left: 5%;
+                        right: 5%;
+
+                        h5 {
+                            font-size: 18px;
+                            margin-bottom: 0;
+                        }
+
+                        h2 {
+                            font-size: 34px;
+                            margin-bottom: 0;
+                            padding-top: 12px;
+                            padding-bottom: 20px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            margin-bottom: 0;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #disc {
+            .disc {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    width: 80%;
+                    margin-top: -36px;
+                }
+
+                div {
+                    padding-left: 5px;
+                    padding-right: 28px;
+                    margin-top: -20px;
+
+                    h1 {
+                        font-size: 34px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        #what {
+            margin-top: -40px;
+
+            .title {
+                font-size: 30px;
+            }
+
+            .description {
+                margin-top: 14px;
+                font-size: 14px;
+                line-height: 24px;
+            }
+
+            .what-img {
+                margin-top: 0px;
+            }
+
+            .what-bottom {
+                padding-top: 40px;
+                
+                .left {
+                    h1 {
+                        line-height: 100%;
+                        font-size: 30px;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                    
+                }
+
+                .right {
+                    margin-top: 0;
+
+                    .border-line {
+                        width: 90px;
+                        height: 6px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 24px;
+                        margin-top: 20px;
+                        margin-bottom: 16px;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+
+        #best {
+            .top {
+                .left {
+                    .description {
+                        .border-line {
+                            width: 120px;
+                            height: 6px;
+                            margin-top: -5px;
+                            margin-left: 0;
+                        }
+
+                        h4 {
+                            font-size: 28px;
+                        }
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+
+                .right {
+                    margin-top: 20px;
+
+                    h1 {
+                        text-align: center;
+                        font-size: 22px;
+                        line-height: 100%;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                margin-top: 50px;
+
+                .left {
+                    #accordionFaq {
+                        .accordion-item {
+                            .accordion-header {
+                                button {
+                                    font-size: 16px;
+                                }
+                            }
+
+                            .accordion-collapse {
+                                .accordion-body {
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                }
+                            }   
+                        }
+                    }
+                } 
+
+                .right {
+                    margin-top: 50px;
+                    position: relative;
+                    padding-right: 10px;
+
+                    .wrapper {
+                        margin-left: 0;
+
+                        img {
+                            width: 100%;
+                        }
+
+                        .controls {
+                            right: 20px;
+
+                            button {
+                                width: 35px;
+                                height: 35px;
+
+                                img {
+                                    width: 10px;
+                                    height: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #artist {
+            .top {
+                .left {
+                    .title {
+                        font-size: 28px;
+                        line-height: 100%;
+                    }
+
+                    .description {
+                        margin-top: 18px;
+                        font-size: 14px;
+                        line-height: 24px;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+
+                .right {
+                    justify-content: start;
+
+                    button {
+                        line-height: 24px;
+                        padding: 14px 20px;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .bottom {
+                .left-img,
+                .right-img {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .right-img {
+                    margin-top: 10px;
+                }
+
+                .right {
+                    margin-top: 40px;
+
+                    div {
+                        .left {
+                            .border-line {
+                                .line-bottom,
+                                .line-top {
+                                    height: 30px;
+                                }
+                            }
+                        }
+
+                        .right {
+                            margin-top: 0;
+
+                            .first {
+                                .left {
+                                    margin-top: 11px;
+                                }
+                            }
+
+                            .middle {
+                                .right {
+                                    margin-top: 30px;
+                                }
+                            }
+
+                            h5 {
+                                font-size: 16px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                                line-height: 24px;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #contact {
+            padding-top: 50px;
+
+            .container-xl {
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 0;
+                padding-bottom: 0;
+                border: none;
+
+                .left {
+                    padding-right: 10px;
+
+                    h1 {
+                        font-size: 28px;
+                        line-height: 100%;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 24px;
+                        margin-top: 14px;
+                        margin-bottom: 16px;
+                    }
+
+                    form {
+                        padding: 22px 20px;
+
+                        .input-group {
+                            .input-group-text {
+                                padding: 14px 16px;
+
+                                img {
+                                    width: 15px;
+                                }
+                            }
+
+                            .form-control {
+                                padding: 14px 16px;
+
+                                &::-webkit-input-placeholder,
+                                &::placeholder {
+                                    font-size: 13px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                        
+                        button {
+                            line-height: 20px;
+                            padding: 10px 14px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .right {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    footer {
+        padding-top: 50px;
+        padding-bottom: 40px;
+
+        .left {
+            .title {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 0;
+                padding-top: 10px;
+                padding-bottom: 10px;
+
+                br {
+                    display: none;
+                }
+            }
+
+            .d-flex {
+                margin-top: 20px;
+
+                a {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .right {
+            align-items: start;
+            justify-content: start;
+            margin-top: 30px;
+
+            form {
+                .input-group {
+                    width: 100%;
+
+                    .form-control {
+                        &::-webkit-input-placeholder,
+                        &::placeholder {
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+
+                    .input-group-append {
+                        button {
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+
+                h4 {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .copyright {
+            padding-top: 10px;
+            text-align: center;
+
+            .d-flex {
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-store {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        #navbarResponsive {
+            ul {
+                li {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+
+                    &:last-child {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+
+        .navbar-brand {
+            font-size: 22px;
+        }
+
+        .navbar-toggler {
+            border: none;
+            outline: none;
+
+            .navbar-toggler-icon {
+                width: 1.6rem;
+                height: 1.6rem;
+            }
+
+            &:focus {
+                outline: none;
+                border: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .page-content {
+        section {
+            padding-top: 90px;
+            padding-bottom: 90px;
+        }
+
+        #hero-carousel {
+            .carousel-indicators {
+                margin-right: 5%;
+                margin-left: 5%;
+
+                button {
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        left: 5%;
+                        right: 5%;
+
+                        h5 {
+                            font-size: 20px;
+                            margin-bottom: 0;
+                        }
+
+                        h2 {
+                            font-size: 42px;
+                            margin-bottom: 0;
+                            padding-top: 12px;
+                            padding-bottom: 20px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            margin-bottom: 0;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #disc {
+            .disc {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    width: 80%;
+                    margin-top: -36px;
+                }
+
+                div {
+                    padding-left: 5px;
+                    padding-right: 28px;
+                    margin-top: -20px;
+
+                    h1 {
+                        font-size: 34px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        #what {
+            margin-top: 10px;
+
+            .title {
+                font-size: 30px;
+            }
+
+            .description {
+                margin-top: 14px;
+                font-size: 14px;
+                line-height: 24px;
+
+                br {
+                    display: none;
+                }
+            }
+
+            .what-img {
+                margin-top: 0px;
+            }
+
+            .what-bottom {
+                padding-top: 40px;
+                
+                .left {
+                    h1 {
+                        line-height: 100%;
+                        font-size: 30px;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                    
+                }
+
+                .right {
+                    margin-top: 0;
+
+                    .border-line {
+                        width: 90px;
+                        height: 6px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 24px;
+                        margin-top: 20px;
+                        margin-bottom: 16px;
+                    }
+
+                    span {
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+
+        #best {
+            .top {
+                .left {
+                    .description {
+                        .border-line {
+                            width: 120px;
+                            height: 6px;
+                            margin-top: -5px;
+                            margin-left: 0;
+                        }
+
+                        h4 {
+                            font-size: 28px;
+                        }
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+
+                .right {
+                    margin-top: 30px;
+
+                    h1 {
+                        text-align: right;
+                        font-size: 24px;
+                        line-height: 100%;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                margin-top: 50px;
+
+                .left {
+                    #accordionFaq {
+                        .accordion-item {
+                            .accordion-header {
+                                button {
+                                    font-size: 16px;
+                                }
+                            }
+
+                            .accordion-collapse {
+                                .accordion-body {
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                }
+                            }   
+                        }
+                    }
+                } 
+
+                .right {
+                    margin-top: 0px;
+                    position: relative;
+                    padding-right: 10px;
+
+                    .wrapper {
+                        margin-left: 0;
+
+                        img {
+                            width: 100%;
+                        }
+
+                        .controls {
+                            right: 20px;
+
+                            button {
+                                width: 40px;
+                                height: 40px;
+
+                                img {
+                                    width: 14px;
+                                    height: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #artist {
+            .top {
+                .left {
+                    .title {
+                        font-size: 28px;
+                        line-height: 100%;
+                    }
+
+                    .description {
+                        margin-top: 18px;
+                        font-size: 14px;
+                        line-height: 24px;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+
+                .right {
+                    justify-content: end;
+
+                    button {
+                        line-height: 24px;
+                        padding: 14px 20px;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .bottom {
+                .left-img,
+                .right-img {
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .right-img {
+                    margin-top: 0px;
+                }
+
+                .right {
+                    margin-top: 0px;
+
+                    div {
+                        .left {
+                            .border-line {
+                                .line-bottom,
+                                .line-top {
+                                    height: 30px;
+                                }
+                            }
+                        }
+
+                        .right {
+                            margin-top: 0;
+
+                            .first {
+                                .left {
+                                    margin-top: 0px;
+                                }
+                            }
+
+                            .middle {
+                                .right {
+                                    margin-top: 0px;
+                                }
+                            }
+
+                            h5 {
+                                font-size: 16px;
+                            }
+
+                            p {
+                                font-size: 14px;
+                                line-height: 24px;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #contact {
+            padding-top: 50px;
+
+            .container-xl {
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 0;
+                padding-bottom: 0;
+                border: none;
+
+                .left {
+                    padding-top: 50px;
+                    padding-right: 10px;
+
+                    h1 {
+                        font-size: 28px;
+                        line-height: 100%;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 24px;
+                        margin-top: 14px;
+                        margin-bottom: 16px;
+                    }
+
+                    form {
+                        padding: 22px 20px;
+
+                        .input-group {
+                            .input-group-text {
+                                padding: 14px 16px;
+
+                                img {
+                                    width: 15px;
+                                }
+                            }
+
+                            .form-control {
+                                padding: 14px 16px;
+
+                                &::-webkit-input-placeholder,
+                                &::placeholder {
+                                    font-size: 13px;
+                                    line-height: 22px;
+                                }
+                            }
+                        }
+                        
+                        button {
+                            line-height: 20px;
+                            padding: 10px 14px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        padding-top: 50px;
+        padding-bottom: 40px;
+
+        .left {
+            .title {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 0;
+                padding-top: 10px;
+                padding-bottom: 10px;
+
+                br {
+                    display: none;
+                }
+            }
+
+            .d-flex {
+                margin-top: 20px;
+
+                a {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .right {
+            align-items: end;
+            justify-content: end;
+            margin-top: 30px;
+
+            form {
+                .input-group {
+                    width: 100%;
+
+                    .form-control {
+                        &::-webkit-input-placeholder,
+                        &::placeholder {
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+
+                    .input-group-append {
+                        button {
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+
+                h4 {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
+
+        .copyright {
+            padding-top: 10px;
+        }
+    }
+}
+
+@include media-breakpoint-down(xl) { }
+
 @include media-breakpoint-up(xxl) { }
