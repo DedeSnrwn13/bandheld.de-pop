@@ -1,0 +1,12 @@
+// Import Bootstrap 4 Library
+@import "../../node_modules/bootstrap/scss/bootstrap";
+// style
+@import "global";
+@import "fonts";
+@import "navbar";
+// pages
+@import "pages/home";
+// components
+
+//transitions
+@import "transitions/slide-fade";
